@@ -1,0 +1,57 @@
+import random
+random_number = random.randint(1,9)
+
+if random_number == 1:
+  print("Yes - definitely.")
+elif random_number == 2:
+  print("It is decidedly so.")
+elif random_number == 3:
+  print("Without a doubt")
+elif random_number == 4:
+  print("Reply hazy, try again")
+elif random_number == 5:
+  print("Ask again later.")
+elif random_number == 6:
+  print("Better not tell you now.")
+elif random_number == 7:
+  print("My sources say no")
+elif random_number == 8:
+  print("Outlook not so good.")
+elif random_number == 9:
+  print("Very doubtful.")
+#...
+else:
+  answer = "Error"
+
+name = "Ruriko"
+
+question = "Will Bungie bring back Cayde-6?"
+answer = "Yes - definitely."
+
+question = "Does Kagome get to meet her daughter?"
+answer = "It is decidedly so."
+
+question = "Is eating butterscotch chips everyday healthy?"
+answer = "Without a doubt."
+
+question = "Will Elden Ring become easier to play?"
+answer = "Reply hazy, try again."
+
+question = "Do you love me Magic 8-Ball?"
+answer = "Ask again later."
+
+question = "Will there ever be a day where people will pick up on what satire is or do we have to keep explaining it?"
+answer = "Better not tell you now."
+
+question = "Will they bring back the altoids sour hard candy?"
+answer = "My sources say no."
+
+question = "Is this for real?"
+answer = "Outlook not so good."
+
+questions = "Will Nicolas Cage ever stop being awesome?"
+answer = "Very doubtful."
+
+
+print(name + " asks: " + question)
+print("Magic 8-Ball's answer: " + answer)
